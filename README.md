@@ -7,7 +7,7 @@ Embora tenha conseguido conectar com utilizando o Workbench, não consegui reali
 
 Para simular o ambiente, utilizei o docker, sendo que o conteiner foi criado utilizando a seguinte configuração: ``docker-compose.yaml``. 
 
-SQL executa códigos sequencialmente, então se der erro em alguma linha, ele pára a execução. Por isso, tive que excluir as linhas de drop e alter table que estavam dando problema. Adicionalmente, tive que mudificar o nome do banco alterando o ``use`` para ``use azure_company``.
+SQL executa códigos sequencialmente, então se der erro em alguma linha, ele pára a execução. Por isso, tive que excluir as linhas de drop e alter table que estavam dando problema. Adicionalmente, tive que mudificar o nome do banco alterando o ``use company_constraints`` para ``use azure_company``.
 
 Respondendo a pergunta proposta no Desafio (Questão 14):
 Utilizamos o mesclar, pois estamos lidando com a combinação de conjuntos de dados ou operações. Caso estivessemos lidando com um valor de uma variável ou propriedade, então utilizaríamos o atribuir.
